@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/healthpartnerWeb/css/writePostPage.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#header").load("/healthpartnerWeb/html/header.html")      
+        });
+    </script> 
+</head>
+<body>
+    <div id="header"></div>
+
+    <div id = postArea>
+        <input id="postTitle" type="text" placeholder="제목을 작성해주세요."></input>
+        <textarea id="postDetail" placeholder="글을 작성해주세요."></textarea>
+    </div>
+    
+    <footer id="postFooter">
+        <div id="utilBox"></div>
+        <input id="postFinishBtn" type="button" value="작성완료"></input>
+    </footer>
+    
+    <script src="/healthpartnerWeb/js/writePostPage.js"></script>
+</body>
+
+</html>

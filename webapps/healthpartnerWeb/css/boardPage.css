@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+#main{
+    width: 85%;
+    height: fit-content;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 15%;
+    -ms-overflow-style: none;
+}
+#description{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#boardName{
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    color:#5865f2;
+    font-weight: bold;
+}
+#postBtn{
+    width: 80px;
+    height: 40px;
+    color: #F9F9F9;
+    background-color: #46494F;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+
+#postGuide{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    
+    background-color: #5865f2;
+    color: white;
+    border-radius: 5px;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#titleGuide{
+    display: inline-block;
+    width:70%;
+}
+.elseGuide{
+    display: inline-block;
+    width:14%;
+}
+
+#postList{
+    width: 80%;
+    text-align: center;
+}
+.postItem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #8AAAE5;
+}
+.postTitle{
+    width:70%;
+    font-size: 20px;
+    text-align:left;
+    display: inline-block;
+
+}
+/* 나머지는 elseguide 재활용 */

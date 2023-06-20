@@ -1,0 +1,27 @@
+canvas{
+    background-color: gray;
+}
+
+#container1{
+    width: 620px;
+    position: fixed;
+    top:100px;
+    left:50px;
+    font-size: 0;
+}
+#container2{
+    width: 620px;
+    position: fixed;
+    top:100px;
+    left:800px;
+    font-size: 0;
+}
+
+#correctMessage{
+    font-size: 30pt;
+    color: green;
+    position: fixed;
+    top:50px;
+    left:800px;
+}
+
